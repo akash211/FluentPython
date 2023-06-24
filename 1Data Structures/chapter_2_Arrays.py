@@ -21,3 +21,5 @@ floats2.fromfile(fp, 10**7)
 fp.close()
 print(floats2[-1])
 print(floats == floats2)
+
+floats_sorted = array('d', sorted(floats))  # to sort array
